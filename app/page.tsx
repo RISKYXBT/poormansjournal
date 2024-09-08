@@ -9,11 +9,11 @@ export default function Home() {
       <CompoundingSimulator />
       <div className="mt-12 text-center text-sm text-gray-600 dark:text-gray-400">
         By{' '}
-        <Link href="https://x.com/RiskyGhazi" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
+        <Link href="https://x.com/RiskyGhazi" target="_blank" rel="noopener noreferrer" className="text-[#ffc500] hover:underline">
           @Riskyghazi
         </Link>
         {' '}- For{' '}
-        <Link href="https://x.com/alphadhad" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
+        <Link href="https://x.com/alphadhad" target="_blank" rel="noopener noreferrer" className="text-[#ffc500] hover:underline">
           @Alphadhad
         </Link>
       </div>
