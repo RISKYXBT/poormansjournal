@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="container mx-auto px-4 pb-8">
+    <main className="w-full max-w-full px-0">
       <TradeEntryCalculator />
       <CompoundingSimulator />
       <div className="mt-12 text-center text-sm text-gray-600 dark:text-gray-400">

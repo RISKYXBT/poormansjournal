@@ -1,5 +1,9 @@
+import Image from 'next/image';
 import type { Metadata } from "next";
-import "./globals.css";  // Update this line
+import { Inter } from 'next/font/google';
+import "./globals.css";
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Trade Entry Calculator",
@@ -13,7 +17,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={inter.className}>
+        <header className="bg-black">
+          <div className="container mx-auto flex items-center justify-center">
+            <Image src="/logo.png" alt="Logo" width={120} height={120} className="py-1" />
+          </div>
+        </header>
+        {children}
+      </body>
     </html>
   )
 }
