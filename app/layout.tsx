@@ -20,7 +20,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="bg-black">
           <div className="container mx-auto flex items-center justify-center">
-            <Image src="/logo.png" alt="Logo" width={120} height={120} className="py-1" />
+            <Image 
+              src="/logo.PNG"
+              alt="Logo" 
+              width={120} 
+              height={120} 
+              className="py-1" 
+            />
           </div>
         </header>
         {children}
